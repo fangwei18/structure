@@ -30,7 +30,7 @@ func AddNode(front **ListNode, node *ListNode) {
 
 func Add(front **ListNode, data int) {
 	newNode := &ListNode{Data: data}
-	AddNode(newNode)
+	AddNode(front, newNode)
 }
 
 func addFront(front **ListNode, data int) {
